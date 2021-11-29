@@ -1,0 +1,45 @@
+/* importing font */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+/* Colors */
+
+/* Primary */
+
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+
+/* Neutral */
+
+--Very-dark-blue-main: hsl(217, 54%, 11%);
+--Very-dark-blue: hsl(216, 50%, 16%);
+--Very-dark-blue: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+body{
+  background-color: var(--Very-dark-blue-main);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.card{
+  max-width: 375px;
+  height: 70%;
+
+  padding: 30px;
+
+  background-color: var(--Very-dark-blue);
+
+  border-radius: 15px;
+}
+
+.img-bg{
+  width: 100%;
+  height: 30%;
+}
