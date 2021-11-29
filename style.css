@@ -124,6 +124,12 @@ p{
 .section-span span{
   display: flex;
   justify-content: center;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.section-span span:hover{
+  transform: translateY(-5px);
 }
 
 .section-span span img{
